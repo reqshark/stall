@@ -1,0 +1,29 @@
+{
+  "name":"stall",
+  "version": "0.0.1",
+  "description": "similar to yield, stall pauses the node/iojs default runloop. it will block everything else in its surrounding context until completion flag is set. calling done() resumes contextual program flow back to normal asyc",
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "~1.5.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "should": "~4.3.1"
+  },
+  "binary": {
+    "module_name" : "stall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reqshark/stall.git"
+  },
+  "scripts": {
+    "travis-test": "make check"
+  },
+  "author":{
+    "name": "Bent Cardan",
+    "email": "bent@nothingsatisfies.com",
+    "url": "http://req.link"
+  },
+  "license": "beerware"
+}
