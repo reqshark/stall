@@ -15,9 +15,8 @@ $ npm install stall
 var stall = require('stall')
 
 //template for a sleep function
-var sleep = stall(function (timeout, done) {
+var sleep = stall( function (timeout, done) {
 
-  //an asynchronous function, as well as params passed can go here,
   //just make sure to call done() to yield back the event loop  
   setTimeout(done, timeout)
 })
