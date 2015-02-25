@@ -1,5 +1,5 @@
 # stall
-stall `iojs` and `node`'s async runloop until you call a `done()` callback.
+pause `node`'s async runloop until you call a `done()` callback.
 
 # description
 similar to yield, stall pauses the node/iojs default runloop. it will block everything else in its surrounding context until its completion flag is set: calling done() resumes contextual program flow back to normal asyc
