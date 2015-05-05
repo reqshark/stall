@@ -4,7 +4,7 @@
   "description": "similar to yield, stall pauses the node/iojs default runloop. it will block everything else in its surrounding context until completion flag is set. calling done() resumes contextual program flow back to normal asyc",
   "dependencies": {
     "bindings": "~1.2.1",
-    "nan": "~1.5.1"
+    "nan": "~1.8.4"
   },
   "devDependencies": {
     "mocha": "~2.1.0",
